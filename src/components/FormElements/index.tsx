@@ -13,8 +13,15 @@ import DatePickerTwo from "@/components/FormElements/DatePicker/DatePickerTwo";
 import DatePickerOne from "@/components/FormElements/DatePicker/DatePickerOne";
 import MultiSelect from "@/components/FormElements/MultiSelect";
 import SelectGroupTwo from "@/components/SelectGroup/SelectGroupTwo";
+import useTools from "../../hooks/allProducts";
 
 const FormElements = () => {
+
+
+const data = useTools()
+
+
+
   return (
     <>
       <Breadcrumb pageName="FormElements" />
@@ -25,7 +32,7 @@ const FormElements = () => {
           <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
-                Input Fields
+                Input Fields hellooooooooooooooooooooooooooooooo
               </h3>
             </div>
             <div className="flex flex-col gap-5.5 p-6.5">
